@@ -76,7 +76,7 @@ class VolumeInfo {
     }
     pageCount = json['pageCount'];
     printType = json['printType'];
-    categories = json['categories'].cast<String>();
+    categories = json['categories'] == null? [] : List<String>.from(json["categories"].map((x) => x));
     imageLinks = json['imageLinks'] != null
         ? ImageLinks.fromJson(json['imageLinks'])
         : null;
