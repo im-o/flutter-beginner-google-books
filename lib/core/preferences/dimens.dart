@@ -9,6 +9,11 @@ class Dimens {
   static double height(BuildContext context) =>
       MediaQuery.of(context).size.height;
 
+  static const double dp3 = 3;
   static const double dp4 = 4;
   static const double dp8 = 8;
+  static const double dp14 = 14;
+  static const double dp16 = 16;
+  static const double dp200 = 200;
+  static const double dp500 = 500;
 }
