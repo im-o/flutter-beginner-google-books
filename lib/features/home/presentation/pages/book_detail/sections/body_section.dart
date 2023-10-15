@@ -12,31 +12,46 @@ class BodySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String? authors = googleBook.volumeInfo?.authors?.join(', ');
     return Column(
       children: [
         TitleText(
-          googleBook.volumeInfo?.title ?? "",
+          googleBook.volumeInfo?.title ?? '',
           align: TextAlign.center,
-          style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: Dimens.dp8),
         SubTitleText(
-          "${googleBook.volumeInfo?.publishedDate} • "
-          "${googleBook.volumeInfo?.language} • "
-          "${googleBook.volumeInfo?.industryIdentifiers} • "
-          "${googleBook.volumeInfo?.authors}",
+          googleBook.volumeInfo?.subtitle ?? '-',
+          align: TextAlign.center,
           style: const TextStyle(
-            fontSize: Dimens.dp14,
+            fontSize: Dimens.dp16,
+            color: Colors.white60,
+          ),
+        ),
+        const SizedBox(height: Dimens.dp8),
+        RegularText(
+          'By. ${authors ?? '-'} • ${googleBook.volumeInfo?.publishedDate ?? ''}',
+          style: const TextStyle(
             color: Colors.blueGrey,
           ),
         ),
         const SizedBox(height: Dimens.dp16),
         const Divider(thickness: Dimens.dp3),
+        const SizedBox(height: Dimens.dp3),
+        RegularText('Publisher: ${googleBook.volumeInfo?.publisher ?? '-'}'),
+        const SizedBox(height: Dimens.dp3),
+        RegularText('Type: ${googleBook.volumeInfo?.printType ?? '-'}'),
+        const SizedBox(height: Dimens.dp3),
+        RegularText(
+          'Price: ${googleBook.saleInfo?.listPrice?.currencyCode ?? 'Free'} '
+          '${googleBook.saleInfo?.listPrice?.amount ?? ''}',
+        ),
+        const Divider(thickness: Dimens.dp3),
         const SizedBox(height: Dimens.dp16),
         const SubTitleText('Description'),
         const SizedBox(height: Dimens.dp16),
         RegularText(
-          googleBook.volumeInfo?.description ?? "",
+          googleBook.volumeInfo?.description ?? '-',
           align: TextAlign.justify,
           style: const TextStyle(
             color: Colors.white60,
