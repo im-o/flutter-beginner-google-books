@@ -14,35 +14,32 @@ class BookImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        LayoutBuilder(builder: (context, constraints) {
-          return Container(
-            child: googleBook.volumeInfo?.imageLinks?.thumbnail == null
-                ? _emptyImage(constraints, null)
-                : CachedNetworkImage(
-                    imageUrl:
-                        googleBook.volumeInfo?.imageLinks?.thumbnail ?? '',
-                    placeholder: (context, url) => _emptyImage(
-                      constraints,
-                      const CircularProgressIndicator(),
-                    ),
-                    errorWidget: (context, url, error) => _emptyImage(
-                      constraints,
-                      const Icon(Icons.error),
-                    ),
+        Container(
+          child: googleBook.volumeInfo?.imageLinks?.thumbnail == null
+              ? _emptyImage(null)
+              : CachedNetworkImage(
+                  imageUrl: googleBook.volumeInfo?.imageLinks?.thumbnail ?? '',
+                  placeholder: (context, url) => _emptyImage(
+                    const CircularProgressIndicator(),
                   ),
-          );
-        }),
+                  errorWidget: (context, url, error) => _emptyImage(
+                    const Icon(Icons.error),
+                  ),
+                ),
+        ),
       ],
     );
   }
 
-  Widget _emptyImage(BoxConstraints constraints, Widget? widget) {
-    return SizedBox(
-      height: constraints.maxWidth > 900 ? 300 : 150,
-      child: Container(
-        alignment: Alignment.center,
-        child: widget ?? const Text('No Image'),
-      ),
-    );
+  Widget _emptyImage(Widget? widget) {
+    return LayoutBuilder(builder: (context, constraints) {
+      return SizedBox(
+        height: constraints.maxWidth > 900 ? 300 : 150,
+        child: Container(
+          alignment: Alignment.center,
+          child: widget ?? const Text('No Image'),
+        ),
+      );
+    });
   }
 }
