@@ -18,6 +18,7 @@ class BookSection extends StatefulWidget {
 
 class _BookSectionState extends State<BookSection> {
   List<GoogleBook> _googleBooks = [];
+  bool isLoading = true;
 
   @override
   Widget build(BuildContext context) {
@@ -34,16 +35,22 @@ class _BookSectionState extends State<BookSection> {
                     return BookItemCard(
                       googleBook: googleBook,
                       onTapBook: () {
-                        // Navigator.of(context).push(MaterialPageRoute(
-                        //   builder: (context) => BookDetailPage(movie: movie),
-                        // ));
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => BookDetailPage(
+                            googleBook: googleBook,
+                          ),
+                        ));
                       },
                     );
                   }).toList(),
                 ),
               ),
             )
-          : const Center(child: Text("Data is empty!"));
+          : Center(
+              child: isLoading
+                  ? const CircularProgressIndicator()
+                  : const Text("Data is empty!"),
+            );
     });
   }
 
@@ -59,6 +66,9 @@ class _BookSectionState extends State<BookSection> {
     );
     var data = await json.decode(response);
     var googleBooks = GoogleBookResponse.fromJson(data).items;
-    setState(() => _googleBooks = googleBooks ?? []);
+    setState(() {
+      _googleBooks = googleBooks ?? [];
+      isLoading = false;
+    });
   }
 }
