@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_book/features/home/home.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../../core/core.dart';
 
@@ -42,10 +43,18 @@ class BodySection extends StatelessWidget {
         const SizedBox(height: Dimens.dp3),
         RegularText('Type: ${googleBook.volumeInfo?.printType ?? '-'}'),
         const SizedBox(height: Dimens.dp3),
+        const SizedBox(height: Dimens.dp3),
         RegularText(
           'Price: ${googleBook.saleInfo?.listPrice?.currencyCode ?? 'Free'} '
           '${googleBook.saleInfo?.listPrice?.amount ?? ''}',
         ),
+        const SizedBox(height: Dimens.dp3),
+        if (googleBook.saleInfo?.listPrice?.currencyCode != null)
+          OutlinedButton(
+              onPressed: () {
+                _launchURL(googleBook.volumeInfo?.previewLink);
+              },
+              child: const Text('Preview the Book')),
         const Divider(thickness: Dimens.dp3),
         const SizedBox(height: Dimens.dp16),
         const SubTitleText('Description'),
@@ -59,5 +68,12 @@ class BodySection extends StatelessWidget {
         ),
       ],
     );
+  }
+
+  _launchURL(String? path) async {
+    final Uri url = Uri.parse(path ?? '');
+    if (!await launchUrl(url)) {
+      throw Exception('Could not launch $url');
+    }
   }
 }
