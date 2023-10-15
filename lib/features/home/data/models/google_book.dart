@@ -64,7 +64,7 @@ class VolumeInfo {
   VolumeInfo.fromJson(Map<String, dynamic> json) {
     title = json['title'];
     subtitle = json['subtitle'];
-    authors = json['authors'].cast<String>();
+    authors = json['authors'] == null? [] : List<String>.from(json["authors"].map((x) => x));
     publisher = json['publisher'];
     publishedDate = json['publishedDate'];
     description = json['description'];

@@ -1,11 +1,11 @@
 {
   "kind": "books#volumes",
-  "totalItems": 406,
+  "totalItems": 397,
   "items": [
     {
       "kind": "books#volume",
       "id": "VYurDwAAQBAJ",
-      "etag": "/SpEYQC+wWg",
+      "etag": "vx00VqUkROE",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/VYurDwAAQBAJ",
       "volumeInfo": {
         "title": "Happy Flutter",
@@ -103,7 +103,7 @@
     {
       "kind": "books#volume",
       "id": "GmTtDwAAQBAJ",
-      "etag": "dps9ML1fXlQ",
+      "etag": "d8pWh1j5xAU",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/GmTtDwAAQBAJ",
       "volumeInfo": {
         "title": "Flutter For Dummies",
@@ -177,7 +177,7 @@
     {
       "kind": "books#volume",
       "id": "I9TBDwAAQBAJ",
-      "etag": "3Vm3mS6Ew8U",
+      "etag": "MBEEAaMe6bg",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/I9TBDwAAQBAJ",
       "volumeInfo": {
         "title": "Beginning App Development with Flutter",
@@ -253,7 +253,7 @@
     {
       "kind": "books#volume",
       "id": "9rSlDwAAQBAJ",
-      "etag": "Mlyik1RV7ZQ",
+      "etag": "ZspqHzijAxk",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/9rSlDwAAQBAJ",
       "volumeInfo": {
         "title": "Flutter: Zero to App",
@@ -340,105 +340,8 @@
     },
     {
       "kind": "books#volume",
-      "id": "7qZJEAAAQBAJ",
-      "etag": "ScfHWyybb2E",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/7qZJEAAAQBAJ",
-      "volumeInfo": {
-        "title": "Flutter for Beginners",
-        "subtitle": "An introductory guide to building cross-platform mobile applications with Flutter 2.5 and Dart, 2nd Edition",
-        "authors": [
-          "Thomas Bailey",
-          "Alessandro Biessek"
-        ],
-        "publisher": "Packt Publishing Ltd",
-        "publishedDate": "2021-10-18",
-        "description": "Develop the real-world experience you need to build and launch your own Flutter apps with this full-color guide Key FeaturesGet up to speed with the basics of Dart programming and delve into Flutter developmentLearn about Flutter widgets, plugins, and animations to create a high-quality app user experiencePackage and deploy your Flutter apps to achieve native-like performanceBook Description There have been many attempts at creating frameworks that are truly cross-platform, but most struggle to create a native-like experience at high performance levels. Flutter achieves this with an elegant design and a wealth of third-party plugins, making it the future of mobile app development. If you are a mobile developer who wants to create rich and expressive native apps with the latest Google Flutter framework, this book is for you. This book will guide you through developing your first app from scratch all the way to production release. Starting with the setup of your development environment, you'll learn about your app's UI design and responding to user input via Flutter widgets, manage app navigation and screen transitions, and create widget animations. You'll then explore the rich set of third party-plugins, including Firebase and Google Maps, and get to grips with testing and debugging. Finally, you'll get up to speed with releasing your app to mobile stores and the web. By the end of this Flutter book, you'll have gained the confidence to create, edit, test, and release a full Flutter app on your own. What you will learnExplore the core concepts of the Flutter framework and how it is used for cross-platform developmentUnderstand the fundamentals of the Dart programming languageWork with Flutter widgets and learn the concepts of stateful and stateless widgetsAdd animation to your app using animated widgets and advanced animations techniquesMaster the complete development lifecycle, including testing and debuggingInvestigate the app release process to both mobile stores and the webWho this book is for This book is for developers looking to learn Google's revolutionary framework Flutter from scratch. No prior knowledge of Flutter or Dart is required.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781800562363"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1800562365"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 370,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.5.4.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=7qZJEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=7qZJEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.id/books?id=7qZJEAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=5&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=7qZJEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7qZJEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "ID",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 672176,
-          "currencyCode": "IDR"
-        },
-        "retailPrice": {
-          "amount": 470523,
-          "currencyCode": "IDR"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=7qZJEAAAQBAJ&rdid=book-7qZJEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 672176000000,
-              "currencyCode": "IDR"
-            },
-            "retailPrice": {
-              "amountInMicros": 470523000000,
-              "currencyCode": "IDR"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "ID",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=7qZJEAAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This book will guide you through developing your first app from scratch all the way to production release."
-      }
-    },
-    {
-      "kind": "books#volume",
       "id": "R4qsDwAAQBAJ",
-      "etag": "2V0Sd9IRdF0",
+      "etag": "mkwCMUY5d9k",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/R4qsDwAAQBAJ",
       "volumeInfo": {
         "title": "Enjoy Flutter",
@@ -481,7 +384,7 @@
           "thumbnail": "http://books.google.com/books/content?id=R4qsDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
         },
         "language": "id",
-        "previewLink": "http://books.google.co.id/books?id=R4qsDwAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=6&source=gbs_api",
+        "previewLink": "http://books.google.co.id/books?id=R4qsDwAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=5&source=gbs_api",
         "infoLink": "https://play.google.com/store/books/details?id=R4qsDwAAQBAJ&source=gbs_api",
         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R4qsDwAAQBAJ"
       },
@@ -535,8 +438,105 @@
     },
     {
       "kind": "books#volume",
+      "id": "7qZJEAAAQBAJ",
+      "etag": "KQfexaH9bOU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7qZJEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Flutter for Beginners",
+        "subtitle": "An introductory guide to building cross-platform mobile applications with Flutter 2.5 and Dart, 2nd Edition",
+        "authors": [
+          "Thomas Bailey",
+          "Alessandro Biessek"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2021-10-18",
+        "description": "Develop the real-world experience you need to build and launch your own Flutter apps with this full-color guide Key FeaturesGet up to speed with the basics of Dart programming and delve into Flutter developmentLearn about Flutter widgets, plugins, and animations to create a high-quality app user experiencePackage and deploy your Flutter apps to achieve native-like performanceBook Description There have been many attempts at creating frameworks that are truly cross-platform, but most struggle to create a native-like experience at high performance levels. Flutter achieves this with an elegant design and a wealth of third-party plugins, making it the future of mobile app development. If you are a mobile developer who wants to create rich and expressive native apps with the latest Google Flutter framework, this book is for you. This book will guide you through developing your first app from scratch all the way to production release. Starting with the setup of your development environment, you'll learn about your app's UI design and responding to user input via Flutter widgets, manage app navigation and screen transitions, and create widget animations. You'll then explore the rich set of third party-plugins, including Firebase and Google Maps, and get to grips with testing and debugging. Finally, you'll get up to speed with releasing your app to mobile stores and the web. By the end of this Flutter book, you'll have gained the confidence to create, edit, test, and release a full Flutter app on your own. What you will learnExplore the core concepts of the Flutter framework and how it is used for cross-platform developmentUnderstand the fundamentals of the Dart programming languageWork with Flutter widgets and learn the concepts of stateful and stateless widgetsAdd animation to your app using animated widgets and advanced animations techniquesMaster the complete development lifecycle, including testing and debuggingInvestigate the app release process to both mobile stores and the webWho this book is for This book is for developers looking to learn Google's revolutionary framework Flutter from scratch. No prior knowledge of Flutter or Dart is required.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781800562363"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1800562365"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 370,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7qZJEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7qZJEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=7qZJEAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=7qZJEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7qZJEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 672176,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 470523,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=7qZJEAAAQBAJ&rdid=book-7qZJEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 672176000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 470523000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7qZJEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will guide you through developing your first app from scratch all the way to production release."
+      }
+    },
+    {
+      "kind": "books#volume",
       "id": "LKLbDwAAQBAJ",
-      "etag": "yqwuBLePJzs",
+      "etag": "xXtfmXYf7pg",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/LKLbDwAAQBAJ",
       "volumeInfo": {
         "title": "flutter dari nol",
@@ -599,7 +599,7 @@
     {
       "kind": "books#volume",
       "id": "ex-tDwAAQBAJ",
-      "etag": "9PogMJyyVBA",
+      "etag": "D8cDWNshVF0",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/ex-tDwAAQBAJ",
       "volumeInfo": {
         "title": "Beginning Flutter",
@@ -674,7 +674,7 @@
     {
       "kind": "books#volume",
       "id": "EzgzEAAAQBAJ",
-      "etag": "h0kDdYEkukE",
+      "etag": "5sUEAGDcQoo",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/EzgzEAAAQBAJ",
       "volumeInfo": {
         "title": "Flutter in Action",
@@ -770,7 +770,7 @@
     {
       "kind": "books#volume",
       "id": "r3MD0AEACAAJ",
-      "etag": "xx0Lhr5/n0E",
+      "etag": "N+J5NR070QE",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/r3MD0AEACAAJ",
       "volumeInfo": {
         "title": "Pemrograman Android Dengan Flutter Edisi 2",
@@ -835,7 +835,7 @@
     {
       "kind": "books#volume",
       "id": "zDE0EAAAQBAJ",
-      "etag": "ewJy4jifQ30",
+      "etag": "PUUdV5f2DzU",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/zDE0EAAAQBAJ",
       "volumeInfo": {
         "title": "Flutter Cookbook",
@@ -931,81 +931,8 @@
     },
     {
       "kind": "books#volume",
-      "id": "5uBMyQEACAAJ",
-      "etag": "3yz0EHMX7Do",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/5uBMyQEACAAJ",
-      "volumeInfo": {
-        "title": "Flutter for Beginners",
-        "subtitle": "An Introductory Guide to Building Cross-Platform Mobile Applications with Flutter and Dart 2",
-        "authors": [
-          "Alessandro Biessek"
-        ],
-        "publishedDate": "2019-09-12",
-        "description": "A step-by-step guide to learning Flutter and Dart 2 for creating Android and iOS mobile applications Key Features Get up to speed with the basics of Dart programming and delve into Flutter development Understand native SDK and third-party libraries for building Android and iOS applications using Flutter Package and deploy your Flutter apps to achieve native-like performance Book Description Google Flutter is a cross-platform mobile framework that makes it easy to write high-performance apps for Android and iOS. This book will help you get to grips with the basics of the Flutter framework and the Dart programming language. Starting from setting up your development environment, you'll learn to design the UI and add user input functions. You'll explore the navigator widget to manage app routes and learn to add transitions between screens. The book will even guide you through developing your own plugin and later, you'll discover how to structure good plugin code. Using the Google Places API, you'll also understand how to display a map in the app and add markers and interactions to it. You'll then learn to improve the user experience with features such as map integrations, platform-specific code with native languages, and personalized animation options for designing intuitive UIs. The book follows a practical approach and gives you access to all relevant code files hosted at github.com/PacktPublishing/Flutter-for-Beginners. This will help you access a variety of examples and prepare your own bug-free apps, ready to deploy on the App Store and Google Play Store. By the end of this book, you'll be well-versed with Dart programming and have the skills to develop your own mobile apps or build a career as a Dart and Flutter app developer. What you will learn Understand the fundamentals of the Dart programming language Explore the core concepts of the Flutter UI and how it compiles for multiple platforms Develop Flutter plugins and widgets and understand how to structure plugin code appropriately Style your Android and iOS apps with widgets and learn the difference between stateful and stateless widgets Add animation to your UI using Flutter's AnimatedBuilder component Integrate your native code into your Flutter codebase for native app performance Who this book is for This book is for developers looking to learn Google's revolutionary framework Flutter from scratch. No prior knowledge of Flutter or Dart is required; however, basic knowledge of any programming language will be helpful.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1788996089"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781788996082"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 512,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=5uBMyQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=5uBMyQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.id/books?id=5uBMyQEACAAJ&dq=flutter&hl=&cd=12&source=gbs_api",
-        "infoLink": "http://books.google.co.id/books?id=5uBMyQEACAAJ&dq=flutter&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Flutter_for_Beginners.html?hl=&id=5uBMyQEACAAJ"
-      },
-      "saleInfo": {
-        "country": "ID",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "ID",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=5uBMyQEACAAJ&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This book will help you get to grips with the basics of the Flutter framework and the Dart programming language. Starting from setting up your development environment, you&#39;ll learn to design the UI and add user input functions."
-      }
-    },
-    {
-      "kind": "books#volume",
       "id": "MAM1EAAAQBAJ",
-      "etag": "bkvax04rR1o",
+      "etag": "vh5OHmxRN+U",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/MAM1EAAAQBAJ",
       "volumeInfo": {
         "title": "Pragmatic Flutter",
@@ -1101,8 +1028,104 @@
     },
     {
       "kind": "books#volume",
+      "id": "cq6REAAAQBAJ",
+      "etag": "YHthRnyN3iI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cq6REAAAQBAJ",
+      "volumeInfo": {
+        "title": "Taking Flutter to the Web",
+        "subtitle": "Learn how to build cross-platform UIs for web and mobile platforms using Flutter for Web",
+        "authors": [
+          "Damodar Lohani"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2022-10-28",
+        "description": "A web developer's guide to using Flutter for building responsive and adaptive web UIs using mobile solutions Key FeaturesBuild a native, mobile-like experience for your web apps using FlutterExplore a systematic and synchronized learning path for web developers to learn FlutterDesign an MVVM structure for scalability and performance with this practical guideBook Description Using a shared codebase in addition to an extensive range of tools in the Flutter ecosystem optimized for browsers, the Flutter framework has expanded to enable you to bring your mobile apps to the web. You'll find out how web developers can leverage the Flutter framework for web apps with this hands-on guide. Taking Flutter to the Web will help you learn all about the Flutter ecosystem by covering the tools and project structure that allows you to easily integrate Flutter into your web stack. You'll understand the concepts of cross-platform UI development and how they can be applied to web platforms. As you explore Flutter on the web, you'll become well-versed with using Flutter as an alternative UI platform for building adaptive and responsive designs for web apps. By the end of this Flutter book, you'll have built and deployed a complete Flutter app for the web and have a roadmap ready to target the web for your existing Flutter mobile apps. What you will learnUnderstand the concepts necessary for designing, building, and deploying a Flutter web appGet the hang of Flutter internals to make the most of the frameworkBuild complete web applications with Flutter from architecture to deploymentAutomate UI design for your web apps using FlutterExplore Flutter's integration with Appwrite for backend developmentDiscover advanced concepts in frontend web development, such as state management and PWAWho this book is for This book is for Flutter mobile developers and Dart programmers who want to consolidate their Flutter knowledge and use it to build responsive web applications.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781801819138"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1801819130"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 206,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cq6REAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cq6REAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=cq6REAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=14&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cq6REAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cq6REAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 460711,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 322498,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=cq6REAAAQBAJ&rdid=book-cq6REAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 460711000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 322498000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cq6REAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "What you will learnUnderstand the concepts necessary for designing, building, and deploying a Flutter web appGet the hang of Flutter internals to make the most of the frameworkBuild complete web applications with Flutter from architecture ..."
+      }
+    },
+    {
+      "kind": "books#volume",
       "id": "px4mEAAAQBAJ",
-      "etag": "4vd05AtTlNw",
+      "etag": "ywZMWv/4gec",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/px4mEAAAQBAJ",
       "volumeInfo": {
         "title": "Pengantar Pemrograman Dart dan Flutter",
@@ -1133,7 +1156,7 @@
           "thumbnail": "http://books.google.com/books/content?id=px4mEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
         },
         "language": "id",
-        "previewLink": "http://books.google.co.id/books?id=px4mEAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=14&source=gbs_api",
+        "previewLink": "http://books.google.co.id/books?id=px4mEAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=15&source=gbs_api",
         "infoLink": "https://play.google.com/store/books/details?id=px4mEAAAQBAJ&source=gbs_api",
         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=px4mEAAAQBAJ"
       },
@@ -1187,104 +1210,8 @@
     },
     {
       "kind": "books#volume",
-      "id": "cq6REAAAQBAJ",
-      "etag": "e4XOnnX2c3Y",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/cq6REAAAQBAJ",
-      "volumeInfo": {
-        "title": "Taking Flutter to the Web",
-        "subtitle": "Learn how to build cross-platform UIs for web and mobile platforms using Flutter for Web",
-        "authors": [
-          "Damodar Lohani"
-        ],
-        "publisher": "Packt Publishing Ltd",
-        "publishedDate": "2022-10-28",
-        "description": "A web developer's guide to using Flutter for building responsive and adaptive web UIs using mobile solutions Key FeaturesBuild a native, mobile-like experience for your web apps using FlutterExplore a systematic and synchronized learning path for web developers to learn FlutterDesign an MVVM structure for scalability and performance with this practical guideBook Description Using a shared codebase in addition to an extensive range of tools in the Flutter ecosystem optimized for browsers, the Flutter framework has expanded to enable you to bring your mobile apps to the web. You'll find out how web developers can leverage the Flutter framework for web apps with this hands-on guide. Taking Flutter to the Web will help you learn all about the Flutter ecosystem by covering the tools and project structure that allows you to easily integrate Flutter into your web stack. You'll understand the concepts of cross-platform UI development and how they can be applied to web platforms. As you explore Flutter on the web, you'll become well-versed with using Flutter as an alternative UI platform for building adaptive and responsive designs for web apps. By the end of this Flutter book, you'll have built and deployed a complete Flutter app for the web and have a roadmap ready to target the web for your existing Flutter mobile apps. What you will learnUnderstand the concepts necessary for designing, building, and deploying a Flutter web appGet the hang of Flutter internals to make the most of the frameworkBuild complete web applications with Flutter from architecture to deploymentAutomate UI design for your web apps using FlutterExplore Flutter's integration with Appwrite for backend developmentDiscover advanced concepts in frontend web development, such as state management and PWAWho this book is for This book is for Flutter mobile developers and Dart programmers who want to consolidate their Flutter knowledge and use it to build responsive web applications.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781801819138"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1801819130"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 206,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=cq6REAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=cq6REAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.id/books?id=cq6REAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=15&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=cq6REAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cq6REAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "ID",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 460711,
-          "currencyCode": "IDR"
-        },
-        "retailPrice": {
-          "amount": 322498,
-          "currencyCode": "IDR"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=cq6REAAAQBAJ&rdid=book-cq6REAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 460711000000,
-              "currencyCode": "IDR"
-            },
-            "retailPrice": {
-              "amountInMicros": 322498000000,
-              "currencyCode": "IDR"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "ID",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=cq6REAAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "What you will learnUnderstand the concepts necessary for designing, building, and deploying a Flutter web appGet the hang of Flutter internals to make the most of the frameworkBuild complete web applications with Flutter from architecture ..."
-      }
-    },
-    {
-      "kind": "books#volume",
       "id": "Om21DwAAQBAJ",
-      "etag": "/BxOc1JfYsQ",
+      "etag": "DdbxULIzBcs",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/Om21DwAAQBAJ",
       "volumeInfo": {
         "title": "Flutter Recipes",
@@ -1362,7 +1289,7 @@
     {
       "kind": "books#volume",
       "id": "eZbcDwAAQBAJ",
-      "etag": "V5Vz+xGyfl4",
+      "etag": "0xKa8x7AUWg",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/eZbcDwAAQBAJ",
       "volumeInfo": {
         "title": "Programming Flutter",
@@ -1458,7 +1385,7 @@
     {
       "kind": "books#volume",
       "id": "B1mxDwAAQBAJ",
-      "etag": "DK2/SIjzxCc",
+      "etag": "1Yd9cxl/X3g",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/B1mxDwAAQBAJ",
       "volumeInfo": {
         "title": "Love is Flutter",
@@ -1554,7 +1481,7 @@
     {
       "kind": "books#volume",
       "id": "qBFhEAAAQBAJ",
-      "etag": "rYGY5wcgDmo",
+      "etag": "wsxhyO9OVzM",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/qBFhEAAAQBAJ",
       "volumeInfo": {
         "title": "Konsep dan Perancangan Aplikasi: Membangun Aplikasi Mobile Menggunakan Flutter",
@@ -1645,13 +1572,13 @@
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "... \u003cb\u003eflutter\u003c/b\u003e beserta kelebihannya dalam membangun aplikasi pada perangkat mobile • Mahasiswa dapat memahami mengapa perlunya mempelajari \u003cb\u003eflutter\u003c/b\u003e • Mahasiswa ... \u003cb\u003eFLUTTER\u003c/b\u003e 1.1. TUJUAN PEMBELAJARAN 1.2. DESKRIPSI SINGKAT 1.3. PENGENALAN \u003cb\u003eFLUTTER\u003c/b\u003e."
+        "textSnippet": "... <b>flutter</b> beserta kelebihannya dalam membangun aplikasi pada perangkat mobile • Mahasiswa dapat memahami mengapa perlunya mempelajari <b>flutter</b> • Mahasiswa ... <b>FLUTTER</b> 1.1. TUJUAN PEMBELAJARAN 1.2. DESKRIPSI SINGKAT 1.3. PENGENALAN <b>FLUTTER</b>."
       }
     },
     {
       "kind": "books#volume",
       "id": "gcnAEAAAQBAJ",
-      "etag": "WCaZ15XmGcI",
+      "etag": "aLAciyOqa8o",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/gcnAEAAAQBAJ",
       "volumeInfo": {
         "title": "Flutter Cookbook",
@@ -1742,6 +1669,728 @@
       },
       "searchInfo": {
         "textSnippet": "Introducing the second edition of Flutter Cookbook, a step-by-step guide designed exclusively for you. Whether you&#39;re a seasoned developer or just starting your coding journey, this book is your ultimate companion."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "glQfEAAAQBAJ",
+      "etag": "qjkLGqLkZVI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/glQfEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Cooking Flutter - UDACODING",
+        "subtitle": "Buku Flutter seri ke 4 UDACODING (Jago Coding Flutter)",
+        "authors": [
+          "Muhammad Alamsyah",
+          "Ari Ramadhani"
+        ],
+        "publisher": "UDACODING",
+        "publishedDate": "2021-02-22",
+        "description": "Kata Pengantar BAB I Pembuatan Base Project Flutter BAB II Konfigurasi Akun Firebase A. Mengaktifkan Fitur Authentication Email/Sandi Google B. Mengaktifkan Realtime Database BAB III Registrasi Account 2D Animation Rive BAB IV Mengatur Struktur Project dan Library Dependencies Customer Apps Dependencies Driver Apps BAB V Customer Apps Menu Login dan Register Page Booking Page History Page BAB VI Login Register Page Customer A. Logic Login Register Constructor Function User Model Register Function Session Manager Custom Snackbar Login Email and Password Function Login With Google Function Logout Account Google Function User Bloc B. View Login Register Register View Login View Custom Button Custom TextField BAB VII Maps View (Booking Page) Membuat API Key GMaps Make Maps View di Booking Page BAB VIII Get Current Location (Booking Page) Get Current Location Function Make Marker Origin Pin Function Get Address Function BAB IX Search Destination Location (Booking Page) Search Destination Location Function BAB X Drawing Route Between 2 Location Origin Box Destination Box Distance Model Polyline Request Data Service Google Maps Distance Repo Estimate Repo Polyline Repo Make Marker Destination Pin Function Set Price by Distance Drawing Polyline BAB XI Saving Booking to RTDB Booking Model Notification Repo (Save Data Booking) BAB XII Send Notification to Driver Notification Repo (Send Notification ) Booking Page BAB XIII Make List History Page History Page Detail History BAB XIV Driver Menu Login dan Register Page Maps View Page Task Order Page History Page BAB XV Login Register Page (Driver) A. Logic Login Register User Model B. View Login Register Login Page Register Page BAB XVI Maps View Page (Driver) Maps Screen Splash Screen Main Custom Dialog BAB XVII Task Order Page (Driver) Booking Model Database Repo (Update Booking) Send Notification Database Repo Full Version Order Screen Detail Order Screen BAB XVIII History Order Page(Driver) History Screen History Detail BONUS Aplikasi Hitung Umur Persiapan Membuat Project Implementasi Project Running Apps Aplikasi Wallpaper dengan Flutter Persiapan Membuat Project Implementasi Project Running Apps Aplikasi Kesehatan Persiapan Membuat Project Design Database Mempersiapkan Api / webservices Implementasi Project Running Apps Untuk demo project aplikasi bisa liat melalui link dibawah ini : https://youtu.be/mUTGdXJbfz0",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786237181934"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "6237181938"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 285,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=glQfEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=glQfEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "id",
+        "previewLink": "http://books.google.co.id/books?id=glQfEAAAQBAJ&pg=PA2&dq=flutter&hl=&cd=21&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=glQfEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=glQfEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 149850,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 101898,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=glQfEAAAQBAJ&rdid=book-glQfEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 149850000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 101898000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.id/books/download/Cooking_Flutter_UDACODING-sample-pdf.acsm?id=glQfEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=glQfEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Buku <b>Flutter</b> seri ke 4 UDACODING (Jago Coding <b>Flutter</b>) Muhammad Alamsyah, Ari Ramadhani. KATA. PENGANTAR. <b>Flutter</b> saat ini menjadi sebuah trend di kalangan developer khususnya mobile. Karena <b>flutter</b> digadang-gadangkan memiliki nilai lebih&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ym_tDwAAQBAJ",
+      "etag": "W4y36Ai/YEQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ym_tDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Falling In Love with Flutter",
+        "subtitle": "Panduan Lengkap membuat aplikasi Android dan iOS dari Nol",
+        "authors": [
+          "Sigit Suryono",
+          "Hardiansah"
+        ],
+        "publisher": "Surelabs Pub",
+        "publishedDate": "2020-02-25",
+        "description": "Merupakan buku yang akaj membantu anda dalam membuat aplikasi Android dan iOS Dalam buku ini langsung menghasilkan 2 aplikasi Aplikasi Wisata Yogyakarta dan Aplikasi Portal Berita",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 130,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ym_tDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ym_tDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "id",
+        "previewLink": "http://books.google.co.id/books?id=ym_tDwAAQBAJ&pg=PR4&dq=flutter&hl=&cd=22&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ym_tDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ym_tDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 166389,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 113145,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ym_tDwAAQBAJ&rdid=book-ym_tDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 166389000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 113145000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.id/books/download/Falling_In_Love_with_Flutter-sample-pdf.acsm?id=ym_tDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ym_tDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>FLUTTER</b> DAN INSTALASI .................................................................... 1 A. Pengenalan <b>Flutter</b>........................................................................... 2 B. Alasan Kenapa <b>Flutter</b> Penting Bagi&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BFPcDwAAQBAJ",
+      "etag": "0jFjnwDFsns",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BFPcDwAAQBAJ",
+      "volumeInfo": {
+        "title": "flutter dari nol -v2",
+        "authors": [
+          "malik kurosaki"
+        ],
+        "publisher": "blackangel media",
+        "publishedDate": "2020-04-11",
+        "description": "ini aladah buku lanjutan dari flutter dari nol pertama ,padabuku kedua ini lebih mengulas pendalaman layout",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 30,
+        "printType": "BOOK",
+        "categories": [
+          "Antiques & Collectibles"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=BFPcDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=BFPcDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "id",
+        "previewLink": "http://books.google.co.id/books?id=BFPcDwAAQBAJ&pg=PT1&dq=flutter&hl=&cd=23&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=BFPcDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BFPcDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 55500,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 41625,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=BFPcDwAAQBAJ&rdid=book-BFPcDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 55500000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 41625000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.id/books/download/flutter_dari_nol_v2-sample-pdf.acsm?id=BFPcDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=BFPcDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>flutter</b>, dari instalasi, dart dan simple layout , pada volume ke dua ini ,kita akan lebih memperdalam mengenai layout, mengapa gk langsung ke logic ?? karena <b>flutter</b> emang kuat dy layout salah satunya dan untuk awalan logic dan layout&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NWR9DwAAQBAJ",
+      "etag": "WHCNs62BdVA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NWR9DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Flutter",
+        "subtitle": "For Absolute Beginners",
+        "authors": [
+          "Pouya Hosseini"
+        ],
+        "publisher": "Fatemeh Tajik",
+        "publishedDate": "2018-11-02",
+        "description": "A complete guide to get you started with cross-platform mobile application development with Google Flutter Important Features: 1. Understand the fundamentals of Dart and Flutter to begin cross-platform mobile app development. 2. Learn about Flutter concepts like: - Flutter Widgets - Flutter Classes - Navigation and Routing in Flutter 3. Develop seven Flutter apps from scratch Book Description: Google Flutter is an application development framework for mobile, desktop and web which uses Dart as the primary back-end language. Flutter is highly efficient, fast and easy to work with. In this book, you will learn how to leverage Flutter awesome features and components to develop beautiful native applications. In the first three chapters, you will what is Flutter and how to install Flutter and Dart on Windows, MacOS, and Linux. Then we will explain how to configure IDEs to start programming in Flutter. We will also take a quick and fast-paced journey through the world of Dart programming language which is also developed by Google. After that finally, we are ready to develop with Flutter, in each section of the last chapter of this book we will build a beautiful native Flutter app. All of the source code in these apps are explained line-by-line and every widget or component is explained in full details. In the very last section, you get a quick review of every common widget in Flutter and how to use them with their constructors in one place. So don't worry about searching for them! After reading and implementing this book, you will have learned every useful aspect of Flutter in order to build native cross-platform applications. What you will learn: - Dart basic syntax - Object-oriented programming and its uses in Flutter - Gain knowledge on a massive amount of Flutter Widgets and components - Learn how to add plugins and work with assets like images - Navigation and Pages in your Flutter app - Work with online APIs to get data from the internet and push it to your app What applications you will build: 1. A Dictionary App 2. Simple Wiki 3. Recommender App 4. NASA Picture of the Day 5. Weather App 6. Planets App 7. Quotes App Who this book is for: Anyone who wants to build applications for mobile, desktop and web with Flutter.",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 304,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NWR9DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NWR9DwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=NWR9DwAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=24&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=NWR9DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NWR9DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 506310,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 354417,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=NWR9DwAAQBAJ&rdid=book-NWR9DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 506310000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 354417000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.id/books/download/Flutter-sample-pdf.acsm?id=NWR9DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NWR9DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Flutter is highly efficient, fast and easy to work with. In this book, you will learn how to leverage Flutter awesome features and components to develop beautiful native applications."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TTaiEAAAQBAJ",
+      "etag": "DOaLWpo9G9I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TTaiEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Flutter and Dart Cookbook",
+        "authors": [
+          "Richard Rose"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2022-12-15",
+        "description": "Learn the essentials of working with Flutter and Dart to build full stack applications that meet the needs of a cloud-driven world. Together, the Flutter open source UI software development kit and the Dart programming language for client development provide a unified solution to building applications capable of targeting multiple platforms. Recipes in this cookbook show you how this potent combination provides an efficient approach to application development. Typically used in frontend development, Flutter helps you develop cross-platform applications for Android, iOS, Linux, Mac, Windows, and the Google Fuchsia operating systems. The Dart SDK provides native access to third-party solutions, including APIs, databases, and authentication. When used in concert with Flutter, Dart allows you to compile source code ahead of time to native code. This cookbook shows you how to: Write effective Dart code by using variables and data structures Build applications with Flutter by exploring widgets and data handling Understand cloud provider solutions and learn how to integrate them with Flutter Manage data through APIs using Google Cloud Serverless Work with Firebase solutions such as Authentication and the Cloud Firestore database Build web applications that also work with mobile and desktop platforms",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781098119478"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1098119479"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 334,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TTaiEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TTaiEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=TTaiEAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=25&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=TTaiEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=TTaiEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 328169,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 229718,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=TTaiEAAAQBAJ&rdid=book-TTaiEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 328169000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 229718000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TTaiEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This cookbook shows you how to: Write effective Dart code by using variables and data structures Build applications with Flutter by exploring widgets and data handling Understand cloud provider solutions and learn how to integrate them with ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FwOkDwAAQBAJ",
+      "etag": "GlYk+TXiRrk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FwOkDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Practical Flutter",
+        "subtitle": "Improve your Mobile Development with Google’s Latest Open-Source SDK",
+        "authors": [
+          "Frank Zammetti"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2019-07-19",
+        "description": "Explore what Flutter has to offer, where it came from, and where it’s going. Mobile development is progressing at a fast rate and with Flutter – an open-source mobile application development SDK created by Google – you can develop applications for Android and iOS, as well as Google Fuchsia.Learn to create three apps (a personal information manager, a chat system, and a game project) that you can install on your mobile devices and use for real. You will begin by getting a solid foundation of Flutter knowledge, and building on it immediately by constructing two more traditional productivity apps.. You will also learn to create a game, enabling you to see a whole other perspective on what Flutter can do. In addition to building these apps, you'll have the benefit of reviewing real-world issues you might encounter, along with ways to deal with them through tips and tricks, all designed to make your Flutter experience that much more productive and, frankly, fun! Practical Flutter will leave you with a solid grasp of how to build apps with Flutter, and springboard into creating more advanced apps on your own. By the time your journey through this material concludes, another larger one will begin as you springboard, well-prepared, into the larger world of Flutter development, tackling any project that comes your way with aplomb. Practical Flutter is a learning adventure you won't want to miss. What You'll Learn Get a Flutter project started and logically structure it Use the interface elements Flutter provides, such as widgets, controls, and extensions Build layouts using interface elements Use available tooling, specifically Android Studio Leverage server-side development and connect a Flutter app to a server back-end. Who This Book Is For Mobile developers who are looking to build for multiple mobile platforms and trying to do so with a codebase that is largely the same across all. Basic knowledge of iOS and Android generally, and some general programming experience is expected.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484249727"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1484249720"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 407,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FwOkDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FwOkDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=FwOkDwAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=26&source=gbs_api",
+        "infoLink": "http://books.google.co.id/books?id=FwOkDwAAQBAJ&dq=flutter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Practical_Flutter.html?hl=&id=FwOkDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.id/books/download/Practical_Flutter-sample-epub.acsm?id=FwOkDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.id/books/download/Practical_Flutter-sample-pdf.acsm?id=FwOkDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FwOkDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Who This Book Is For Mobile developers who are looking to build for multiple mobile platforms and trying to do so with a codebase that is largely the same across all."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "junbDwAAQBAJ",
+      "etag": "vVLQeX0gVj0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/junbDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Flutter Projects",
+        "subtitle": "A practical, project-based guide to building real-world cross-platform mobile applications and games",
+        "authors": [
+          "Simone Alessandria"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2020-04-07",
+        "description": "Learn Flutter and the Dart programming language by building impressive real-world mobile applications for Android and iOS Key FeaturesLearn cross-platform mobile development with Flutter and Dart by building 11 real-world appsCreate wide array of mobile projects such as 2D game, productivity timer, movie browsing app, and morePractical projects demonstrating Flutter development techniques with tips, tricks, and best practicesBook Description Flutter is a modern reactive mobile framework that removes a lot of the complexity found in building native mobile apps for iOS and Android. With Flutter, developers can now build fast and native mobile apps from a single codebase. This book is packed with 11 projects that will help you build your own mobile applications using Flutter. It begins with an introduction to Dart programming and explains how it can be used with the Flutter SDK to customize mobile apps. Each chapter contains instructions on how to build an independent app from scratch, and each project focuses on important Flutter features.From building Flutter Widgets and applying animations to using databases (SQLite and sembast) and Firebase, you'll build on your knowledge through the chapters. As you progress, you’ll learn how to connect to remote services, integrate maps, and even use Flare to create apps and games in Flutter. Gradually, you’ll be able to create apps and games that are ready to be published on the Google Play Store and the App Store. In the concluding chapters, you’ll learn how to use the BLoC pattern and various best practices related to creating enterprise apps with Flutter. By the end of this book, you will have the skills you need to write and deliver fully functional mobile apps using Flutter. What you will learnDesign reusable mobile architectures that can be applied to apps at any scaleGet up to speed with error handling and debugging for mobile application developmentApply the principle of ‘composition over inheritance’ to break down complex problems into many simple problemsUpdate your code and see the results immediately using Flutter’s hot reloadIdentify and prevent bugs from reappearing with Flutter’s developer toolsManage an app's state with Streams and the BLoC patternBuild a simple web application using Flutter WebWho this book is for This book is for mobile developers and software developers who want to learn Flutter to build state-of-the-art mobile apps. Although prior experience with Dart programming or Flutter is not required, knowledge of object-oriented programming (OOP), data structures and software design patterns will be beneficial.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781838642532"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1838642536"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 483,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=junbDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=junbDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=junbDwAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=27&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=junbDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=junbDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 386437,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 270506,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=junbDwAAQBAJ&rdid=book-junbDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 386437000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 270506000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=junbDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With Flutter, developers can now build fast and native mobile apps from a single codebase. This book is packed with 11 projects that will help you build your own mobile applications using Flutter."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-iZLEAAAQBAJ",
+      "etag": "o0jdhHxEC6o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-iZLEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Managing State in Flutter Pragmatically",
+        "subtitle": "Discover how to adopt the best state management approach for scaling your Flutter app",
+        "authors": [
+          "Waleed Arshad"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2021-11-25",
+        "description": "Explore popular state management techniques in Flutter and implement them in real-world applications Key FeaturesGet to grips with popular approaches for managing your Flutter application stateThink declaratively in order to decide on the most fitting approach for different applicationsLearn to implement state management solutions by building a popular use case in the form of a shopping cart appBook Description Flutter is a cross-platform user interface (UI) toolkit that enables developers to create beautiful native applications for mobile, desktop, and the web with a single codebase. State management in Flutter is one of the most crucial and complex topics within Flutter, with a wide array of approaches available that can make it easy to get lost due to information overload. Managing State in Flutter Pragmatically is a definitive guide to starting out with Flutter and learning about state management, helping developers with some experience of state management to choose the most appropriate solutions and techniques to use. The book takes a hands-on approach and begins by covering the basics of Flutter state management before exploring how to build and manipulate a shopping cart app using popular approaches such as BLoC/Cubit, Provider, MobX, and Riverpod. Throughout the book, you'll also learn how to adopt approaches from React such as Redux and all its types. By the end of this Flutter book, you'll have gained a holistic view of all the state management approaches in Flutter, and learned which approach is the best solution for managing state in your app development journey. What you will learnUnderstand the core concepts of different state management techniques used in FlutterBuild optimal and performant applications in FlutterDevelop an understanding of which technique to apply in what sort of appsBuild the habit of writing clean state management codeProduce code with techniques from beginner to advanced level for different state management solutionsUse state management techniques to create robust and scalable apps in FlutterWho this book is for This book is for developers who have already started with their Flutter journey and are now looking to learn optimal state management approaches for app development. The book will also help less experienced Flutter engineers to find the best state management solution to fit their app, along with Flutter engineers who want to learn which state management approach should be taken under what circumstances.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781801072090"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1801072094"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 247,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-iZLEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-iZLEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.id/books?id=-iZLEAAAQBAJ&printsec=frontcover&dq=flutter&hl=&cd=29&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=-iZLEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-iZLEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ID",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 386970,
+          "currencyCode": "IDR"
+        },
+        "retailPrice": {
+          "amount": 270879,
+          "currencyCode": "IDR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=-iZLEAAAQBAJ&rdid=book--iZLEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 386970000000,
+              "currencyCode": "IDR"
+            },
+            "retailPrice": {
+              "amountInMicros": 270879000000,
+              "currencyCode": "IDR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ID",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-iZLEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "By the end of this Flutter book, you&#39;ll have gained a holistic view of all the state management approaches in Flutter, and learned which approach is the best solution for managing state in your app development journey."
       }
     }
   ]
